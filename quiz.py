@@ -16,7 +16,8 @@ def rap ():
             print("voce ganhou um ponto!")
         else:
             print("Não foi dessa vez!")
-            
+        rodada2 =
+
 
 #Escolha
 def programa ():
