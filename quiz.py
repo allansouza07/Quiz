@@ -313,7 +313,7 @@ def pagode():
 
 
 def programa ():
-    print()
+    print()    
     escolha1= int(input("Escolha um gênero musical: \n [1] Rap Brasileiro \n [2] MPB \n [3] Pagode \n [4] Pop internacional \n [5] Rock \n Resposta: "))
     historico1 = list()
 
