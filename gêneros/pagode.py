@@ -1,9 +1,9 @@
-def quizpop():
+def quizpagode():
     print()
     pagode=[{"Nome:": "Ferrugem", "cidade": "Rio de Janeiro", "Origem do apelido": "Ser ruivo","time":"Fluminense"}, {"Nome:": "Thiaguinho", "Grupo famoso":"Exaltasamba","Primeiro álbum":"Ousadia & Alegria","Turne":"Tardezinha"}, {"Nome:": "Péricles", "Saida": 2012,"time":"Corinthians", "tentei fazer valer a pena":"Até que durou"}]
     pontos = 0
 
-    escolha_pagode = int(input("Escolha um desses artistas de pop: \n [1]: Michael Jackson \n [2]: Justin Bieber \n [3] Bruno Mars  \n Resposta: "))
+    escolha_pagode = int(input("Escolha um desses artistas de pagode: \n [1]: Ferrugem \n [2]: Thiaguinho \n [3] Péricles  \n Resposta: "))
     print()
     print(f"Você selecionou {pagode[escolha_pagode -1]["Nome:"]}")
     print("Vamos começar as perguntas!")
@@ -42,7 +42,7 @@ def quizpop():
         print(f"Sua pontuação: {pontos} pontos de 3")
         if pontos == 3 :
             print("LARAIA LARAIAAAAA!Jogou muito, parabéns!")
-        elif pontos >0:
+        elif pontos >1:
             print("Pra matar o tempo você devora conhecimento! Boa!")
         elif pontos==0:
             print("Estude mais sobre o artista e talvez você possa melhorar! Vamos lá!")
@@ -80,7 +80,7 @@ def quizpop():
         print(f"Sua pontuação: {pontos} pontos de 3")
         if pontos == 3 :
             print("CARACA, MULEQUE!Jogou muito, parabéns!")
-        elif pontos >0:
+        elif pontos >1:
             print("Foi ousado e alegre! Boa!")
         elif pontos==0:
             print("Estude mais sobre o artista e talvez você possa melhorar! Vamos lá!")
@@ -119,7 +119,7 @@ def quizpop():
         print(f"Sua pontuação: {pontos} pontos de 3")
         if pontos == 3 :
             print("Você fez valer a pena!Jogou muito, parabéns!")
-        elif pontos >0:
+        elif pontos >1:
             print("Isso é um sinal de boa jogada! Boa!")
         elif pontos==0:
             print("Estude mais sobre o artista e talvez você possa melhorar! Vamos lá!")

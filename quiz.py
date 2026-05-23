@@ -1,14 +1,22 @@
 #RAP
 print ("Ola")
-from rap  import quizrap
-from mpb import quizmpb
-from pagode import quizpagode
-from pop import quizpop
+from gêneros.rap  import quizrap
+from gêneros.mpb import quizmpb
+from gêneros.pagode import quizpagode
+from gêneros.pop import quizpop
+from gêneros.rock import quizrock
 
 #Escolha
 def programa ():
     print()    
-    escolha1= int(input("Escolha um gênero musical: \n [1] Rap Brasileiro \n [2] MPB \n [3] Pagode \n [4] Pop internacional \n [5] Rock \n Resposta: "))
+    while True:
+        try:
+            escolha1= int(input("Escolha um gênero musical: \n [1] Rap Brasileiro \n [2] MPB \n [3] Pagode \n [4] Pop internacional \n [5] Rock \n Resposta: "))
+        except:
+            print("escolha um número de 1 a 5!")
+            continue
+        else:
+            break
     historico1 = list()
     if escolha1 == 1 :
         quizrap()     
@@ -18,6 +26,10 @@ def programa ():
         quizpagode()
     elif escolha1 == 4:
         quizpop()
+    elif escolha1 ==5:
+        quizrock()
+    else:
+        print("opção inválida!")
 programa()
 while True:    
     condicao= str(input("Quer continuar? "))

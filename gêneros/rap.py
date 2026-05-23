@@ -43,7 +43,7 @@ def quizrap ():
         print(f"Sua pontuação: {pontos} pontos de 3")
         if pontos == 3 :
             print("Nada como um dia após o outro sendo fã do Racionais! Parabéns!")
-        elif pontos >0:
+        elif pontos >1:
             print("Sou + você! Boa!")
         elif pontos==0:
             print("Estude mais sobre o artista e talvez você possa melhorar! Vamos lá!")
@@ -82,7 +82,7 @@ def quizrap ():
         print(f"Sua pontuação: {pontos} pontos de 3")
         if pontos == 3 :
             print("Você realmente é o líder em movimento! Parabéns!")
-        elif pontos >0:
+        elif pontos >1:
             print("Gigante(s)! Boa!")
         elif pontos==0:
             print("Estude mais sobre o artista e talvez você possa melhorar! Vamos lá!")
@@ -121,7 +121,7 @@ def quizrap ():
         print(f"Sua pontuação: {pontos} pontos de 3")
         if pontos == 3 :
             print("Dono do quiz! Parabéns por acertar tudo!")
-        elif pontos >0:
+        elif pontos >1:
             print("O raio cai mais de 1 vez no mesmo lugar! Boa!")
         elif pontos==0:
             print("Não desanime! Vamos lá!")   

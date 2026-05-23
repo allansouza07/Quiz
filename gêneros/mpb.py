@@ -42,7 +42,7 @@ def quizmpb():
         print(f"Sua pontuação: {pontos} pontos de 3")
         if pontos == 3 :
             print("Seus sinais não me confundem da cabeça aos pés pois eu sei que você mandou muito bem! Parabéns!")
-        elif pontos >0:
+        elif pontos >1:
             print("Um conhecimento puro! Boa!")
         elif pontos==0:
             print("Estude mais sobre o artista e talvez você possa melhorar! Vamos lá!")
@@ -82,7 +82,7 @@ def quizmpb():
         print(f"Sua pontuação: {pontos} pontos de 3")
         if pontos == 3 :
             print("Vencer faz parte do seu cotidiano. Parabés pelo desempenho!")
-        elif pontos >0:
+        elif pontos >1:
             print("Meu cavalo só falava inglês, já você fala a língua do conhecimento! Boa!")
         elif pontos==0:
             print("Estude mais sobre o artista e talvez você possa melhorar! Vamos lá!")
@@ -123,7 +123,7 @@ def quizmpb():
         print(f"Sua pontuação: {pontos} pontos de 3")
         if pontos == 3 :
             print("Não é sujeito de sorte, e sim um sujeito muito inteligente! Mandou bem demais!")
-        elif pontos >0:
+        elif pontos >1:
             print("Belchior ficaria orgulhoso! Parabéns!")
         elif pontos==0:
             print("Estude mais sobre o artista e talvez você possa melhorar! Vamos lá!")
